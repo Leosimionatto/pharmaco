@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pharma.co</title>
+
+    <!--Fontawesome Icons-->
+    <script src="https://kit.fontawesome.com/b23967e3d4.js"></script>
+
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="../assets/css/bootstrap.css">
+
+    <!--Sass compiled to CSS -->
+    <link rel="stylesheet" href="../assets/css/style.css">
+
+    <!--Animate CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-light">
+            <a class="navbar-brand mx-auto fadeInLeft animated" href="#"><img src="../assets/images/Pharmaco logo.png"
+                    alt="logo"></a>
+        </nav>
+    </header>
+    <main role="main">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 mt-5">
+                    <div class="card col-12">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Cadastro</h5>
+                            <form>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <div class="form-group">
+                                            <label for="name">Nome:</label>
+                                            <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                    <div class="input-group-text"><i class="fa fa-user"></i></div>
+                                                </div>
+                                                <input type="text" class="form-control" id="name" placeholder="Nome" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="form-group">
+                                            <label for="user">Usuário:</label>
+                                            <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                    <div class="input-group-text"><i class="fa fa-user"></i></div>
+                                                </div>
+                                                <input type="text" class="form-control" id="user"
+                                                    placeholder="Nome do usuário" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <div class="form-group">
+                                            <label for="email">E-mail</label>
+                                            <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                    <div class="input-group-text">@</div>
+                                                </div>
+                                                <input type="email" class="form-control" id="email"
+                                                    placeholder="E-mail" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="form-group">
+                                            <label for="exampleFormControlInput1">Confirmação do E-mail</label>
+                                            <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                    <div class="input-group-text">@</div>
+                                                </div>
+                                                <input type="email" class="form-control" id="confirmEmail"
+                                                    placeholder="Confirmar E-mail" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <div class="form-group">
+                                            <label for="password">Senha</label>
+                                            <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                    <div class="input-group-text"><i class="fa fa-key"></i></div>
+                                                </div>
+                                                <input type="password" class="form-control" id="password"
+                                                    placeholder="Senha" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="form-group">
+                                            <label for="confirmPassword">Confirmação da Senha:</label>
+                                            <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                    <div class="input-group-text"><i class="fa fa-key"></i></div>
+                                                </div>
+                                                <input type="password" class="form-control" id="confirmPassword"
+                                                    placeholder="Confirmar Senha" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-3">
+                                            <button class="btn btn-pharma-color-2 mx-auto fadeInLeft animated text-right" href="#"
+                                            type="reset">Limpar <i class="fa fa-redo-alt"></i></button>
+                                            <a class="btn btn-pharma-color-2 mx-auto fadeInLeft animated text-right mr-2" href="login.html"
+                                            role="button">Voltar <i class="fa fa-arrow-left"></i></a>
+                                    </div>
+                                    <div class="col-md-2 offset-md-7 text-right">
+                                            <a class="btn btn-success mx-auto fadeInLeft animated" style="color: white" onclick="checkForm()" id="button_submit" role="button"
+                                            >Cadastrar <i class="fa fa-plus"></i></a>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+<!--Bootstrap JS-->
+<script src="../assets/js/jquery.js"></script>
+<script src="../assets/js/popper.js"></script>
+<script src="../assets/js/bootstrap.js"></script>
+
+<!--Custom JS -->
+<script src="../assets/js/custom.js"></script>
+
+</html>
